@@ -1,0 +1,14 @@
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LiibraryDataAccessLayer\bin\Debug\net8.0\LiibraryDataAccessLayer.deps.json
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LiibraryDataAccessLayer\bin\Debug\net8.0\LiibraryDataAccessLayer.runtimeconfig.json
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LiibraryDataAccessLayer\bin\Debug\net8.0\LiibraryDataAccessLayer.dll
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LiibraryDataAccessLayer\bin\Debug\net8.0\LiibraryDataAccessLayer.pdb
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LiibraryDataAccessLayer\obj\Debug\net8.0\LiibraryDataAccessLayer.csproj.AssemblyReference.cache
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LiibraryDataAccessLayer\obj\Debug\net8.0\LiibraryDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LiibraryDataAccessLayer\obj\Debug\net8.0\LiibraryDataAccessLayer.AssemblyInfoInputs.cache
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LiibraryDataAccessLayer\obj\Debug\net8.0\LiibraryDataAccessLayer.AssemblyInfo.cs
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LiibraryDataAccessLayer\obj\Debug\net8.0\LiibraryDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LiibraryDataAccessLayer\obj\Debug\net8.0\LiibraryDataAccessLayer.dll
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LiibraryDataAccessLayer\obj\Debug\net8.0\refint\LiibraryDataAccessLayer.dll
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LiibraryDataAccessLayer\obj\Debug\net8.0\LiibraryDataAccessLayer.pdb
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LiibraryDataAccessLayer\obj\Debug\net8.0\LiibraryDataAccessLayer.genruntimeconfig.cache
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LiibraryDataAccessLayer\obj\Debug\net8.0\ref\LiibraryDataAccessLayer.dll

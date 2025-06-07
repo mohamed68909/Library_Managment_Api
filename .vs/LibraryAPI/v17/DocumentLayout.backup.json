@@ -1,0 +1,1087 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Migrations\\20250607192702_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LiibraryDataAccessLayer\\Migrations\\20250607192702_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\models\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\models\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\models\\borrowingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\models\\borrowingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\libraryapiserver\\libraryapiserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|solutionrelative:libraryapiserver\\libraryapiserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\dtos\\settingsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\dtos\\settingsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\services\\borrowingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\services\\borrowingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\dtos\\bookupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\dtos\\bookupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\libraryapiserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|solutionrelative:libraryapiserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\liibrarydataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\liibrarydataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\libraryapiserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|solutionrelative:libraryapiserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\repositories\\settingsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\repositories\\settingsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\repositories\\finerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\repositories\\finerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\repositories\\borrowingrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\repositories\\borrowingrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\repositories\\bookcopyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\repositories\\bookcopyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\services\\bookcopyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\services\\bookcopyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\interfaces\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\interfaces\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\interfaces\\ifineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\interfaces\\ifineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\interfaces\\iborrowingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\interfaces\\iborrowingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\libraryapiserver\\controllers\\borrowingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|solutionrelative:libraryapiserver\\controllers\\borrowingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\dtos\\bookcopydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\dtos\\bookcopydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\dtos\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\dtos\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\dtos\\bookcopycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\dtos\\bookcopycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\libraryapiserver\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|solutionrelative:libraryapiserver\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\libraryapiserver\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|solutionrelative:libraryapiserver\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\libraryapiserver\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|solutionrelative:libraryapiserver\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\libraryapiserver\\controllers\\finecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|solutionrelative:libraryapiserver\\controllers\\finecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\libraryapiserver\\controllers\\bookcopiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|solutionrelative:libraryapiserver\\controllers\\bookcopiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\libraryapiserver\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|solutionrelative:libraryapiserver\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\libraryapiserver\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7670AB2B-9C72-4B6A-8DC1-4EA14046609A}|LibraryAPIServer\\LibraryAPIServer.csproj|solutionrelative:libraryapiserver\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\dtos\\reservationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\dtos\\reservationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\dtos\\borrowingrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\dtos\\borrowingrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\dtos\\borrowrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\dtos\\borrowrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\interfaces\\iborrowingrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\interfaces\\iborrowingrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\interfaces\\isettingsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\interfaces\\isettingsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\interfaces\\ibookcopyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\interfaces\\ibookcopyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\interfaces\\ifinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\interfaces\\ifinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\services\\fineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\services\\fineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\dtos\\finedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\dtos\\finedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\models\\fine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\models\\fine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\interfaces\\ibookcopyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\interfaces\\ibookcopyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\librarybusinesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\librarybusinesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\librarybusinesslayer\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F0B8E4-A42F-453C-AC3B-5E6A2FF9A040}|LibraryBusinessLayer\\LibraryBusinessLayer.csproj|solutionrelative:librarybusinesslayer\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\dtos\\bookcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\dtos\\bookcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|d:\\projects\\sample project asp.net core and ef\\libraryapi\\liibrarydataaccesslayer\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34953779-8CCC-458B-9113-D7B3ACCC3F23}|LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj|solutionrelative:liibrarydataaccesslayer\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250607192702_initial.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Migrations\\20250607192702_initial.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Migrations\\20250607192702_initial.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Migrations\\20250607192702_initial.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Migrations\\20250607192702_initial.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAAAKkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T19:27:02.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Models\\Setting.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Models\\Setting.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Models\\Setting.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Models\\Setting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:15:58.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibraryContext.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Models\\LibraryContext.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Models\\LibraryContext.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Models\\LibraryContext.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Models\\LibraryContext.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAGcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:20:05.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BorrowingService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\BorrowingService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Services\\BorrowingService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\BorrowingService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Services\\BorrowingService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:30:04.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookUpdateDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\BookUpdateDto.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\DTOs\\BookUpdateDto.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\BookUpdateDto.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\DTOs\\BookUpdateDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:29:54.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SettingsService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\SettingsService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Services\\SettingsService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\SettingsService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Services\\SettingsService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:22:10.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BorrowingRecord.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Models\\BorrowingRecord.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Models\\BorrowingRecord.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Models\\BorrowingRecord.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Models\\BorrowingRecord.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T06:11:35.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LibraryAPIServer.csproj",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\LibraryAPIServer.csproj",
+              "RelativeDocumentMoniker": "LibraryAPIServer\\LibraryAPIServer.csproj",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\LibraryAPIServer.csproj",
+              "RelativeToolTip": "LibraryAPIServer\\LibraryAPIServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-04T20:26:44.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryAPIServer\\appsettings.json",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\appsettings.json",
+              "RelativeToolTip": "LibraryAPIServer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T20:34:59.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SettingsDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\SettingsDto.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\DTOs\\SettingsDto.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\SettingsDto.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\DTOs\\SettingsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:21:08.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Models\\User.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Models\\User.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Models\\User.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:33:31.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LiibraryDataAccessLayer.csproj",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\LiibraryDataAccessLayer.csproj",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-04T20:01:24.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\AuthService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Services\\AuthService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwDQAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:40:19.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryAPIServer\\Program.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Program.cs",
+              "RelativeToolTip": "LibraryAPIServer\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:35:19.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SettingsRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Repositories\\SettingsRepository.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Repositories\\SettingsRepository.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Repositories\\SettingsRepository.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Repositories\\SettingsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:19:55.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Repositories\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Repositories\\ReservationRepository.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Repositories\\ReservationRepository.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Repositories\\ReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:06:21.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FineRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Repositories\\FineRepository.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Repositories\\FineRepository.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Repositories\\FineRepository.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Repositories\\FineRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:23:12.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BorrowingRecordRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Repositories\\BorrowingRecordRepository.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Repositories\\BorrowingRecordRepository.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Repositories\\BorrowingRecordRepository.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Repositories\\BorrowingRecordRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:26:27.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Repositories\\BookRepository.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:25:24.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BookCopyRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Repositories\\BookCopyRepository.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Repositories\\BookCopyRepository.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Repositories\\BookCopyRepository.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Repositories\\BookCopyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T08:42:24.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T12:27:31.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Services\\BookService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\BookService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Services\\BookService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:26:31.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BookCopyService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\BookCopyService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Services\\BookCopyService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\BookCopyService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Services\\BookCopyService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T08:45:26.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:29:12.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ISettingsService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\ISettingsService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Interfaces\\ISettingsService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\ISettingsService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Interfaces\\ISettingsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:21:41.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\IReservationService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Interfaces\\IReservationService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\IReservationService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Interfaces\\IReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:08:38.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IFineService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\IFineService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Interfaces\\IFineService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\IFineService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Interfaces\\IFineService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:32:06.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IBorrowingService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\IBorrowingService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Interfaces\\IBorrowingService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\IBorrowingService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Interfaces\\IBorrowingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:29:40.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BorrowingController.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\BorrowingController.cs",
+              "RelativeDocumentMoniker": "LibraryAPIServer\\Controllers\\BorrowingController.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\BorrowingController.cs",
+              "RelativeToolTip": "LibraryAPIServer\\Controllers\\BorrowingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:31:13.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\BookDto.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\DTOs\\BookDto.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\BookDto.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\DTOs\\BookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:24:13.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BookCopyDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\BookCopyDto.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\DTOs\\BookCopyDto.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\BookCopyDto.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\DTOs\\BookCopyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T08:43:04.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T12:27:04.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\DTOs\\UserRegisterDto.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\UserRegisterDto.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\DTOs\\UserRegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:38:57.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\DTOs\\UserLoginDto.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\UserLoginDto.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\DTOs\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:39:22.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\DTOs\\UserDto.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T12:25:38.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ReservationDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\ReservationDto.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\DTOs\\ReservationDto.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\ReservationDto.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\DTOs\\ReservationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:07:42.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BookCopyCreateDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\BookCopyCreateDto.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\DTOs\\BookCopyCreateDto.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\BookCopyCreateDto.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\DTOs\\BookCopyCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T08:43:34.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Services\\UserService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\UserService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Services\\UserService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwCQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T12:29:13.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "LibraryAPIServer\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "LibraryAPIServer\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwBgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T12:31:47.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\SettingsController.cs",
+              "RelativeDocumentMoniker": "LibraryAPIServer\\Controllers\\SettingsController.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\SettingsController.cs",
+              "RelativeToolTip": "LibraryAPIServer\\Controllers\\SettingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:23:02.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "LibraryAPIServer\\Controllers\\ReservationsController.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "LibraryAPIServer\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:10:13.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "FineController.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\FineController.cs",
+              "RelativeDocumentMoniker": "LibraryAPIServer\\Controllers\\FineController.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\FineController.cs",
+              "RelativeToolTip": "LibraryAPIServer\\Controllers\\FineController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwCsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:25:08.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "BookCopiesController.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\BookCopiesController.cs",
+              "RelativeDocumentMoniker": "LibraryAPIServer\\Controllers\\BookCopiesController.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\BookCopiesController.cs",
+              "RelativeToolTip": "LibraryAPIServer\\Controllers\\BookCopiesController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwDYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T08:46:20.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "LibraryAPIServer\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "LibraryAPIServer\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:27:02.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LibraryAPIServer\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryAPIServer\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "LibraryAPIServer\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:44:24.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ReservationCreateDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\ReservationCreateDto.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\DTOs\\ReservationCreateDto.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\ReservationCreateDto.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\DTOs\\ReservationCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:08:12.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\ReservationService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Services\\ReservationService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\ReservationService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Services\\ReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:09:13.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Models\\Reservation.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Models\\Reservation.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:16:05.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "BorrowingRecordDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\BorrowingRecordDto.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\DTOs\\BorrowingRecordDto.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\BorrowingRecordDto.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\DTOs\\BorrowingRecordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:28:56.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "BorrowRequestDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\BorrowRequestDto.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\DTOs\\BorrowRequestDto.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\BorrowRequestDto.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\DTOs\\BorrowRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:29:20.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:39:45.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IBorrowingRecordRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Interfaces\\IBorrowingRecordRepository.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Interfaces\\IBorrowingRecordRepository.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Interfaces\\IBorrowingRecordRepository.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Interfaces\\IBorrowingRecordRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:25:55.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ISettingsRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Interfaces\\ISettingsRepository.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Interfaces\\ISettingsRepository.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Interfaces\\ISettingsRepository.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Interfaces\\ISettingsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:18:30.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Interfaces\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Interfaces\\IReservationRepository.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Interfaces\\IReservationRepository.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Interfaces\\IReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:05:51.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IBookCopyRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Interfaces\\IBookCopyRepository.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Interfaces\\IBookCopyRepository.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Interfaces\\IBookCopyRepository.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Interfaces\\IBookCopyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T08:41:44.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IFineRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Interfaces\\IFineRepository.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Interfaces\\IFineRepository.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Interfaces\\IFineRepository.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Interfaces\\IFineRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:20:57.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "FineService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\FineService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Services\\FineService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Services\\FineService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Services\\FineService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:24:09.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "FineDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\FineDto.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\DTOs\\FineDto.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\FineDto.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\DTOs\\FineDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:22:28.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Fine.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Models\\Fine.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Models\\Fine.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Models\\Fine.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Models\\Fine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T10:38:48.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Interfaces\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Interfaces\\IBookRepository.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Interfaces\\IBookRepository.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Interfaces\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:25:05.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "ViewState": "AgIAAGQAAAAAAAAAAABBwDUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-05T08:50:51.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IBookCopyService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\IBookCopyService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Interfaces\\IBookCopyService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\IBookCopyService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Interfaces\\IBookCopyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T08:44:49.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "LibraryBusinessLayer.csproj",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\LibraryBusinessLayer.csproj",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\LibraryBusinessLayer.csproj",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\LibraryBusinessLayer.csproj",
+              "RelativeToolTip": "LibraryBusinessLayer\\LibraryBusinessLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-04T20:11:51.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\IBookService.cs",
+              "RelativeDocumentMoniker": "LibraryBusinessLayer\\Interfaces\\IBookService.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LibraryBusinessLayer\\Interfaces\\IBookService.cs",
+              "RelativeToolTip": "LibraryBusinessLayer\\Interfaces\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:26:16.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "BookCreateDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\BookCreateDto.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\DTOs\\BookCreateDto.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\DTOs\\BookCreateDto.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\DTOs\\BookCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:29:17.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "LiibraryDataAccessLayer\\Models\\Book.cs",
+              "ToolTip": "D:\\Projects\\Sample project ASP.Net Core And EF\\LibraryAPI\\LiibraryDataAccessLayer\\Models\\Book.cs",
+              "RelativeToolTip": "LiibraryDataAccessLayer\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:28:45.839Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

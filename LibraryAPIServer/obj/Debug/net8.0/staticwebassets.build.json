@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "SXU9wy4TDe090bbKvomCZ3kHWVz3wenVvnqDuXIr1Q0=",
+  "Source": "LibraryAPIServer",
+  "BasePath": "_content/LibraryAPIServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,15 @@
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LibraryBusinessLayer\bin\Debug\net8.0\LibraryBusinessLayer.deps.json
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LibraryBusinessLayer\bin\Debug\net8.0\LibraryBusinessLayer.dll
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LibraryBusinessLayer\bin\Debug\net8.0\LibraryBusinessLayer.pdb
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LibraryBusinessLayer\obj\Debug\net8.0\LibraryBusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LibraryBusinessLayer\obj\Debug\net8.0\LibraryBusinessLayer.AssemblyInfoInputs.cache
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LibraryBusinessLayer\obj\Debug\net8.0\LibraryBusinessLayer.AssemblyInfo.cs
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LibraryBusinessLayer\obj\Debug\net8.0\LibraryBusinessLayer.csproj.CoreCompileInputs.cache
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LibraryBusinessLayer\obj\Debug\net8.0\LibraryBusinessLayer.dll
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LibraryBusinessLayer\obj\Debug\net8.0\refint\LibraryBusinessLayer.dll
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LibraryBusinessLayer\obj\Debug\net8.0\LibraryBusinessLayer.pdb
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LibraryBusinessLayer\obj\Debug\net8.0\ref\LibraryBusinessLayer.dll
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LibraryBusinessLayer\bin\Debug\net8.0\LiibraryDataAccessLayer.dll
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LibraryBusinessLayer\bin\Debug\net8.0\LiibraryDataAccessLayer.pdb
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LibraryBusinessLayer\obj\Debug\net8.0\LibraryBusinessLayer.csproj.AssemblyReference.cache
+D:\Projects\Sample project ASP.Net Core And EF\LibraryAPI\LibraryBusinessLayer\obj\Debug\net8.0\LibraryB.6B449F2B.Up2Date
