@@ -14,20 +14,20 @@ namespace LiibraryDataAccessLayer.Repositories
         private readonly LibraryContext _context;
         public ReservationRepository(LibraryContext context) => _context = context;
 
-        public List<Reservation> GetByUserId(int userId) =>
-            _context.Reservations.Include(r => r.Copy).Where(r => r.UserId == userId).ToList();
+        public async Task< List<Reservation>> GetByUserIdAsync(int userId) =>
+        await    _context.Reservations.Include(r => r.Copy).Where(r => r.UserId == userId).ToListAsync();
 
-        public Reservation? GetById(int id) => _context.Reservations.Find(id);
+        public async Task<Reservation?> GetByIdAsync(int id) => await _context.Reservations.FindAsync(id);
 
-        public void Add(Reservation reservation) => _context.Reservations.Add(reservation);
+        public async Task AddAsync(Reservation reservation) => await _context.Reservations.AddAsync(reservation);
 
-        public void Delete(int id)
+        public async Task DeleteAsync(int id)
         {
-            var res = _context.Reservations.Find(id);
-            if (res != null) _context.Reservations.Remove(res);
+            var res = await _context.Reservations.FindAsync(id);
+            if (res != null)  _context.Reservations.Remove(res);
         }
 
-        public void Save() => _context.SaveChanges();
+        public async Task SaveAsync() => await _context.SaveChangesAsync();
     }
 
 }

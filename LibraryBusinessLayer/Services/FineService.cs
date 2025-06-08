@@ -18,10 +18,10 @@ namespace LibraryBusinessLayer.Services
             _repository = repository;
         }
 
-        public IEnumerable<FineDto> GetFinesByUser(int userId)
+        public async Task< IEnumerable<FineDto>> GetFinesByUserAsync(int userId)
         {
-            return _repository.GetByUserId(userId)
-                .Select(f => new FineDto
+            var Fines = await _repository.GetByUserIdAsync(userId);
+           return Fines.Select(f => new FineDto
                 {
                     FineID = f.FineId,
                     UserID = f.UserId,
@@ -32,9 +32,9 @@ namespace LibraryBusinessLayer.Services
                 });
         }
 
-        public FineDto GetFineById(int id)
+        public async Task< FineDto> GetFineByIdAsync(int id)
         {
-            var fine = _repository.GetById(id);
+            var fine =  await _repository.GetByIdAsync(id);
             if (fine == null) return null;
 
             return new FineDto
@@ -48,14 +48,14 @@ namespace LibraryBusinessLayer.Services
             };
         }
 
-        public bool UpdatePaymentStatus(int fineId, bool status)
+        public async Task<bool> UpdatePaymentStatusAsync(int fineId, bool status)
         {
-            var fine = _repository.GetById(fineId);
+            var fine =  await _repository.GetByIdAsync(fineId);
             if (fine == null) return false;
 
             fine.PaymentStatus = status;
-            _repository.Update(fine);
-            _repository.Save();
+            await _repository.UpdateAsync(fine);
+            await _repository.SaveAsync();
             return true;
         }
     }

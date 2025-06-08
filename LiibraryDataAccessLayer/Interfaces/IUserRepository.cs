@@ -9,12 +9,12 @@ namespace LiibraryDataAccessLayer.Interfaces
 {
     public interface IUserRepository
     {
-        List<User> GetAll();
-        User? GetById(int id);
+       Task< List<User>> GetAllAsync();
+      Task < User?> GetByIdAsync(int id);
    
-        void Update(User user);
-        void Delete(int id);
-        void Save();
+        Task UpdateAsync(User user);
+        Task DeleteAsync(int id);
+        Task SaveAsync();
     }
 
 

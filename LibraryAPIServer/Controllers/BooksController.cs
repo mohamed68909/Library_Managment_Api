@@ -17,39 +17,43 @@ namespace LibraryAPIServer.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
-        public ActionResult<List<BookDto>> GetAll() => Ok(_service.GetAll());
+        public async Task<ActionResult<List<BookDto>>> GetAll() { 
+         var books = await _service.GetAllAsync();
+            return books.Count == 0 ? NotFound() : Ok(books);
+
+        }
 
         [HttpGet("{id}")]
 
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<BookDto> Get(int id)
+        public async Task< ActionResult<BookDto>> Get(int id)
         {
-            var book = _service.GetById(id);
+            var book = await _service.GetByIdAsync(id);
             return book == null ? NotFound() : Ok(book);
         }
 
         [HttpPost ("Create")]
 
-        public IActionResult Create(BookCreateDto dto)
+        public async Task< IActionResult> Create(BookCreateDto dto)
         {
-            _service.Create(dto);
+            await _service.CreateAsync(dto);
             return Ok();
         }
 
         [HttpPut("Update")]
         
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public IActionResult Update(BookUpdateDto dto)
+        public async Task< IActionResult> Update(BookUpdateDto dto)
         {
-            _service.Update(dto);
+            await _service.UpdateAsync(dto);
             return Ok();
         }
 
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task< IActionResult> Delete(int id)
         {
-            _service.Delete(id);
+            await _service.DeleteAsync(id);
             return Ok();
         }
     }

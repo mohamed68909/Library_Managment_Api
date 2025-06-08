@@ -9,9 +9,9 @@ namespace LibraryBusinessLayer.Interfaces
 {
     public interface IFineService
     {
-        IEnumerable<FineDto> GetFinesByUser(int userId);
-        FineDto GetFineById(int id);
-        bool UpdatePaymentStatus(int fineId, bool status);
+       Task< IEnumerable<FineDto>> GetFinesByUserAsync(int userId);
+      Task<  FineDto >GetFineByIdAsync(int id);
+       Task< bool> UpdatePaymentStatusAsync(int fineId, bool status);
     }
 
 }

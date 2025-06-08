@@ -1,5 +1,6 @@
 ﻿using LiibraryDataAccessLayer.Interfaces;
 using LiibraryDataAccessLayer.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,19 +14,20 @@ namespace LiibraryDataAccessLayer.Repositories
         private readonly LibraryContext _context;
         public SettingsRepository(LibraryContext context) => _context = context;
 
-        public Setting GetSettings()
+        public async Task< Setting>  GetSettingsAsync()
         {
-            return _context.Settings.First(); // Assuming one row only
+            return await _context.Settings.FirstAsync(); // Assuming one row only
         }
 
-        public void Update(Setting settings)
+        public  Task UpdateAsync(Setting settings)
         {
-            _context.Settings.Update(settings);
+             _context.Settings.Update(settings);
+            return Task.CompletedTask;
         }
 
-        public void Save()
+        public async Task SaveAsync()
         {
-            _context.SaveChanges();
+           await  _context.SaveChangesAsync();
         }
     }
 

@@ -9,10 +9,10 @@ namespace LiibraryDataAccessLayer.Interfaces
 {
     public interface IReservationRepository
     {
-        List<Reservation> GetByUserId(int userId);
-        Reservation? GetById(int id);
-        void Add(Reservation reservation);
-        void Delete(int id);
-        void Save();
+       Task< List<Reservation>> GetByUserIdAsync(int userId);
+       Task< Reservation?> GetByIdAsync(int id);
+        Task AddAsync(Reservation reservation);
+        Task DeleteAsync(int id);
+        Task SaveAsync();
     }
 }

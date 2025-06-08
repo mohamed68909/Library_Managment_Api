@@ -21,9 +21,9 @@ namespace LibraryBusinessLayer.Services
             _copyRepo = copyRepo;
         }
 
-        public void Create(ReservationCreateDto dto)
+        public async Task CreateAsync(ReservationCreateDto dto)
         {
-            var copy = _copyRepo.GetById(dto.CopyID);
+            var copy = await _copyRepo.GetByIdAsync(dto.CopyID);
             if (copy == null) throw new Exception("Version not found");
             if (copy.AvailabilityStatus == true)
                 throw new Exception("An available copy cannot be reserved");
@@ -35,19 +35,20 @@ namespace LibraryBusinessLayer.Services
                 ReservationDate = DateTime.Now
             };
 
-            _repo.Add(reservation);
-            _repo.Save();
+           await _repo.AddAsync(reservation);
+           await _repo.SaveAsync();
         }
 
-        public void Cancel(int id)
+        public async Task CancelAsync(int id)
         {
-            _repo.Delete(id);
-            _repo.Save();
+           await _repo.DeleteAsync(id);
+          await  _repo.SaveAsync();
         }
 
-        public List<ReservationDto> GetByUserId(int userId)
+        public  async Task <List<ReservationDto>> GetByUserIdAsync(int userId)
         {
-            return _repo.GetByUserId(userId).Select(r => new ReservationDto
+            var Reser= await _repo.GetByUserIdAsync(userId);
+             return Reser.Select(r => new ReservationDto
             {
                 ReservationID = r.ReservationId,
                 UserID = r.UserId,

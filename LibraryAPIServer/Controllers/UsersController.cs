@@ -13,27 +13,32 @@ public class UsersController : ControllerBase
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
 
-    public ActionResult<List<UserDto>> Get() => Ok(_service.GetAll());
+    public async Task<ActionResult<List<UserDto>>> Get()
+    {
+        var users = await _service.GetAllAsync();
+
+       return Ok(User);
+    }
 
     [HttpGet("{id}")]
-    public ActionResult<UserDto> Get(int id)
+    public  async Task<ActionResult<UserDto>> GetByID(int id)
     {
-        var user = _service.GetById(id);
+        var user = await _service.GetByIdAsync(id);
         return user == null ? NotFound() : Ok(user);
     }
 
   
     [HttpPut]
-    public IActionResult Update(UserDto dto)
+    public async Task< IActionResult> Update(UserDto dto)
     {
-        _service.Update(dto);
+      await  _service.UpdateAsync(dto);
         return Ok("User updated");
     }
 
     [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
+    public async Task< IActionResult> Delete(int id)
     {
-        _service.Delete(id);
+       await _service.DeleteAsync(id);
         return Ok("User deleted");
     }
 }

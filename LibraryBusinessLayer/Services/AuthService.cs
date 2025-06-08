@@ -1,6 +1,7 @@
 ﻿using LibraryBusinessLayer.Interfaces;
 using LiibraryDataAccessLayer.DTOs;
 using LiibraryDataAccessLayer.Models;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Org.BouncyCastle.Crypto.Generators;
@@ -26,9 +27,9 @@ namespace LibraryBusinessLayer.Services
             _config = config;
         }
 
-        public void Register(UserRegisterDto dto)
+        public async Task RegisterAsync(UserRegisterDto dto)
         {
-            if (_context.Users.Any(u => u.Username == dto.Username))
+            if ( await _context.Users.AnyAsync(u => u.Username == dto.Username))
                 throw new Exception("Username already exists");
 
             var hashedPassword = BCrypt.Net.BCrypt.HashPassword(dto.Password);
@@ -42,13 +43,13 @@ namespace LibraryBusinessLayer.Services
                 PasswordHash = hashedPassword
             };
 
-            _context.Users.Add(user);
-            _context.SaveChanges();
+           await _context.Users.AddAsync(user);
+           await _context.SaveChangesAsync();
         }
 
-        public string Login(UserLoginDto dto)
+        public async Task<string> LoginAsync(UserLoginDto dto)
         {
-            var user = _context.Users.FirstOrDefault(u => u.Username == dto.Username);
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == dto.Username);
             if (user == null || !BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash))
                 throw new UnauthorizedAccessException("Login data is incorrect");
 

@@ -6,6 +6,7 @@ using LiibraryDataAccessLayer.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,8 +18,10 @@ namespace LibraryBusinessLayer.Services
 
         public BookService(IBookRepository repo) => _repo = repo;
 
-        public List<BookDto> GetAll() => _repo.GetAll()
-            .Select(book => new BookDto
+        public async Task<List<BookDto>> GetAllAsync()
+        {
+            var book = await _repo.GetAllAsync();
+            return book.Select(book => new BookDto
             {
                 BookID = book.BookId,
                 Title = book.Title,
@@ -26,10 +29,11 @@ namespace LibraryBusinessLayer.Services
                 PublicationDate = book.PublicationDate,
                 Genre = book.Genre
             }).ToList();
+        }
 
-        public BookDto? GetById(int id)
+        public async Task< BookDto?> GetByIdAsync(int id)
         {
-            var book = _repo.GetById(id);
+            var book =  await _repo.GetByIdAsync(id);
             if (book == null) return null;
 
             return new BookDto
@@ -42,7 +46,7 @@ namespace LibraryBusinessLayer.Services
             };
         }
 
-        public void Create(BookCreateDto dto)
+        public async Task CreateAsync(BookCreateDto dto)
         {
             var book = new Book
             {
@@ -52,13 +56,13 @@ namespace LibraryBusinessLayer.Services
                 Genre = dto.Genre,
                 AdditionalDetails = dto.AdditionalDetails
             };
-            _repo.Add(book);
-            _repo.Save();
+             await _repo.AddAsync(book);
+          await  _repo.SaveAsync();
         }
 
-        public void Update(BookUpdateDto dto)
+        public async Task UpdateAsync(BookUpdateDto dto)
         {
-            var book = _repo.GetById(dto.BookID);
+            var book =  await _repo.GetByIdAsync(dto.BookID);
             if (book == null) return;
 
             book.Title = dto.Title;
@@ -67,14 +71,14 @@ namespace LibraryBusinessLayer.Services
             book.Genre = dto.Genre;
             book.AdditionalDetails = dto.AdditionalDetails;
 
-            _repo.Update(book);
-            _repo.Save();
+           await _repo.UpdateAsync(book);
+            await _repo.SaveAsync();
         }
 
-        public void Delete(int id)
+        public async Task DeleteAsync(int id)
         {
-            _repo.Delete(id);
-            _repo.Save();
+           await _repo.DeleteAsync(id);
+            await _repo.SaveAsync();
         }
     }
 

@@ -9,9 +9,9 @@ namespace LiibraryDataAccessLayer.Interfaces
 {
     public interface ISettingsRepository
     {
-        Setting GetSettings();
-        void Update(Setting settings);
-        void Save();
+        Task<Setting> GetSettingsAsync();
+        Task UpdateAsync(Setting settings);
+        Task SaveAsync();
     }
 
 }

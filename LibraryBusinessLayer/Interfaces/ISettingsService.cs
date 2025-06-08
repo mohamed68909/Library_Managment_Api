@@ -9,8 +9,8 @@ namespace LibraryBusinessLayer.Interfaces
 {
     public interface ISettingsService
     {
-        SettingsDto Get();
-        void Update(SettingsDto dto);
+      Task  <SettingsDto> GetAsync();
+        Task UpdateAsync(SettingsDto dto);
     }
 
 }

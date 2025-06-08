@@ -26,13 +26,13 @@ namespace LibraryBusinessLayer.Services
             _settingsRepo = settingsRepo;
         }
 
-        public void Borrow(BorrowRequestDto dto)
+        public async Task BorrowAsync(BorrowRequestDto dto)
         {
-            var copy = _copyRepo.GetById(dto.CopyID);
+            var copy =  await _copyRepo.GetByIdAsync(dto.CopyID);
             if (copy == null) throw new Exception("Copy not found");
             if (!copy.AvailabilityStatus) throw new Exception("Version not available");
 
-            var settings = _settingsRepo.GetSettings();
+            var settings = await _settingsRepo.GetSettingsAsync();
 
             var record = new BorrowingRecord
             {
@@ -43,36 +43,37 @@ namespace LibraryBusinessLayer.Services
             };
 
             copy.AvailabilityStatus = false;
-            _copyRepo.Update(copy);
+           await _copyRepo.UpdateAsync(copy);
 
-            _repo.Add(record);
-            _repo.Save();
-            _copyRepo.Save();
+           await _repo.AddAsync(record);
+           await _repo.SaveAsync();
+           await  _copyRepo.SaveAsync();
         }
 
-        public void Return(int id)
+        public async Task ReturnAsync(int id)
         {
-            var record = _repo.GetById(id);
+            var record = await _repo.GetByIdAsync(id);
             if (record == null || record.ActualReturnDate != null)
                 throw new Exception("Invalid or previously returned record");
 
             record.ActualReturnDate = DateTime.Now;
 
-            var copy = _copyRepo.GetById(record.CopyId);
+            var copy = await _copyRepo.GetByIdAsync(record.CopyId);
             if (copy != null)
             {
                 copy.AvailabilityStatus = true;
-                _copyRepo.Update(copy);
+               await _copyRepo.UpdateAsync(copy);
             }
 
-            _repo.Update(record);
-            _repo.Save();
-            _copyRepo.Save();
+            await _repo.UpdateAsync(record);
+            await _repo.SaveAsync();
+            await _copyRepo.SaveAsync();
         }
 
-        public List<BorrowingRecordDto> GetByUser(int userId)
+        public async Task< List<BorrowingRecordDto>> GetByUserAsync(int userId)
         {
-            return _repo.GetByUser(userId).Select(r => new BorrowingRecordDto
+            var Record = await _repo.GetByUserAsync(userId);
+            return Record.Select(r => new BorrowingRecordDto
             {
                 BorrowingRecordID = r.BorrowingRecordId,
                 UserID = r.UserId,

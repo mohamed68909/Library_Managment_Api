@@ -16,25 +16,30 @@ namespace LibraryBusinessLayer.Services
         private readonly IBookCopyRepository _repo;
         public BookCopyService(IBookCopyRepository repo) => _repo = repo;
 
-        public List<BookCopyDto> GetAll() =>
-            _repo.GetAll().Select(c => new BookCopyDto
-            {
-                CopyID = c.CopyId,
-                BookID = c.BookId,
-                AvailabilityStatus = c.AvailabilityStatus
-            }).ToList();
-
-        public List<BookCopyDto> GetByBookId(int bookId) =>
-            _repo.GetByBookId(bookId).Select(c => new BookCopyDto
-            {
-                CopyID = c.CopyId,
-                BookID = c.BookId,
-                AvailabilityStatus = c.AvailabilityStatus
-            }).ToList();
-
-        public BookCopyDto? GetById(int id)
+        public async Task<List<BookCopyDto>> GetAllAsync()
         {
-            var copy = _repo.GetById(id);
+            var Copy = await _repo.GetAllAsync();
+           return  Copy.Select(c => new BookCopyDto
+            {
+                CopyID = c.CopyId,
+                BookID = c.BookId,
+                AvailabilityStatus = c.AvailabilityStatus
+            }).ToList();
+        }
+
+        public async Task<List<BookCopyDto>> GetByBookIdAsync(int bookId)
+        {
+            var Copy = await _repo.GetByBookIdAsync(bookId); return Copy.Select(c => new BookCopyDto
+            {
+                CopyID = c.CopyId,
+                BookID = c.BookId,
+                AvailabilityStatus = c.AvailabilityStatus
+            }).ToList();
+        }
+
+        public async Task< BookCopyDto?> GetByIdAsync(int id)
+        {
+            var copy = await _repo.GetByIdAsync(id);
             return copy == null ? null : new BookCopyDto
             {
                 CopyID = copy.CopyId,
@@ -43,32 +48,32 @@ namespace LibraryBusinessLayer.Services
             };
         }
 
-        public void Create(BookCopyCreateDto dto)
+        public async Task CreateAsync(BookCopyCreateDto dto)
         {
             var copy = new BookCopy
             {
                 BookId = dto.BookID,
                 AvailabilityStatus = dto.AvailabilityStatus
             };
-            _repo.Add(copy);
-            _repo.Save();
+           await _repo.AddAsync(copy);
+           await _repo.SaveAsync();
         }
 
-        public void Update(BookCopyDto dto)
+        public async Task UpdateAsync(BookCopyDto dto)
         {
-            var copy = _repo.GetById(dto.CopyID);
+            var copy = await _repo.GetByIdAsync(dto.CopyID);
             if (copy == null) return;
 
             copy.BookId = dto.BookID;
             copy.AvailabilityStatus = dto.AvailabilityStatus;
-            _repo.Update(copy);
-            _repo.Save();
+             await _repo.UpdateAsync(copy);
+           await  _repo.SaveAsync();
         }
 
-        public void Delete(int id)
+        public async Task DeleteAsync(int id)
         {
-            _repo.Delete(id);
-            _repo.Save();
+           await _repo.DeleteAsync(id);
+          await  _repo.SaveAsync();
         }
     }
 }

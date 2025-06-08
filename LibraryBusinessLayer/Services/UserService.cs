@@ -9,8 +9,10 @@ public class UserService : IUserService
     private readonly IUserRepository _repo;
     public UserService(IUserRepository repo) => _repo = repo;
 
-    public List<UserDto> GetAll() =>
-        _repo.GetAll().Select(u => new UserDto
+    public async Task<List<UserDto>> GetAllAsync()
+    {
+        var user = await _repo.GetAllAsync();
+        return user.Select(u => new UserDto
         {
             UserID = u.UserId,
             Name = u.Name,
@@ -18,10 +20,11 @@ public class UserService : IUserService
             LibraryCardNumber = u.LibraryCardNumber,
             Username = u.Username
         }).ToList();
+    }
 
-    public UserDto? GetById(int id)
+    public async Task <UserDto?> GetByIdAsync(int id)
     {
-        var u = _repo.GetById(id);
+        var u = await _repo.GetByIdAsync(id);
         if (u == null) return null;
 
         return new UserDto
@@ -36,9 +39,9 @@ public class UserService : IUserService
 
   
 
-    public void Update(UserDto dto)
+    public async Task UpdateAsync(UserDto dto)
     {
-        var user = _repo.GetById(dto.UserID);
+        var user = await _repo.GetByIdAsync(dto.UserID);
         if (user == null) return;
 
         user.Name = dto.Name;
@@ -46,13 +49,13 @@ public class UserService : IUserService
         user.LibraryCardNumber = dto.LibraryCardNumber;
         user.Username = dto.Username;
 
-        _repo.Update(user);
-        _repo.Save();
+      await  _repo.UpdateAsync(user);
+       await _repo.SaveAsync();
     }
 
-    public void Delete(int id)
+    public async Task DeleteAsync(int id)
     {
-        _repo.Delete(id);
-        _repo.Save();
+       await _repo.DeleteAsync(id);
+     await   _repo.SaveAsync();
     }
 }

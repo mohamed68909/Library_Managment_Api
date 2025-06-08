@@ -21,9 +21,11 @@ namespace LibraryAPIServer.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
-        public ActionResult<IEnumerable<FineDto>> GetByUser(int userId)
+        public async Task< ActionResult<IEnumerable<FineDto>>> GetByUser(int userId)
         {
-            return Ok(_service.GetFinesByUser(userId));
+           var fines = await _service.GetFinesByUserAsync(userId);
+            if (fines == null || !fines.Any()) return NotFound();
+            return Ok(fines);
         }
 
         [HttpGet("{id}")]
@@ -31,9 +33,9 @@ namespace LibraryAPIServer.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
-        public ActionResult<FineDto> GetById(int id)
+        public async Task <ActionResult<FineDto>> GetById(int id)
         {
-            var fine = _service.GetFineById(id);
+            var fine = await _service.GetFineByIdAsync(id);
             if (fine == null) return NotFound();
             return Ok(fine);
         }
@@ -42,9 +44,9 @@ namespace LibraryAPIServer.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult Pay(int id, FinePaymentDto dto)
+        public async Task<IActionResult> Pay(int id, FinePaymentDto dto)
         {
-            bool updated = _service.UpdatePaymentStatus(id, dto.PaymentStatus);
+            bool updated = await _service.UpdatePaymentStatusAsync(id, dto.PaymentStatus);
             if (!updated) return NotFound();
             return NoContent();
         }

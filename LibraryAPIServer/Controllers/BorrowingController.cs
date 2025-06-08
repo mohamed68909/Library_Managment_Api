@@ -19,11 +19,11 @@ namespace LibraryAPIServer.Controllers
         [HttpPost("borrow")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult Borrow(BorrowRequestDto dto)
+        public async Task<IActionResult> Borrow(BorrowRequestDto dto)
         {
             try
             {
-                _service.Borrow(dto);
+                await _service.BorrowAsync(dto);
                 return Ok("Borrowed successfully");
             }
             catch (Exception ex)
@@ -36,11 +36,11 @@ namespace LibraryAPIServer.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
 
-        public IActionResult Return(int id)
+        public async Task<IActionResult> Return(int id)
         {
             try
             {
-                _service.Return(id);
+                await _service.ReturnAsync(id);
                 return Ok("Return completed successfully");
             }
             catch (Exception ex)
@@ -52,9 +52,10 @@ namespace LibraryAPIServer.Controllers
         [HttpGet("user/{userId}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<List<BorrowingRecordDto>> GetByUser(int userId)
+        public async Task<ActionResult<List<BorrowingRecordDto>> >GetByUser(int userId)
         {
-            return Ok(_service.GetByUser(userId));
+            var Borrow = await _service.GetByUserAsync(userId);
+            return Ok(Borrow);
         }
     }
 

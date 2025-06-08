@@ -15,9 +15,9 @@ namespace LibraryBusinessLayer.Services
         private readonly ISettingsRepository _repo;
         public SettingsService(ISettingsRepository repo) => _repo = repo;
 
-        public SettingsDto Get()
+        public async Task< SettingsDto> GetAsync()
         {
-            var settings = _repo.GetSettings();
+            var settings = await _repo.GetSettingsAsync();
             return new SettingsDto
             {
                 DefualtBorrrowDays = settings.DefaultBorrowDays,
@@ -25,14 +25,14 @@ namespace LibraryBusinessLayer.Services
             };
         }
 
-        public void Update(SettingsDto dto)
+        public async Task UpdateAsync(SettingsDto dto)
         {
-            var settings = _repo.GetSettings();
+            var settings = await _repo.GetSettingsAsync();
             settings.DefaultBorrowDays = dto.DefualtBorrrowDays;
             settings.DefaultFinePerDay = dto.DefaultFinePerDay;
 
-            _repo.Update(settings);
-            _repo.Save();
+           await  _repo.UpdateAsync(settings);
+         await   _repo.SaveAsync();
         }
     }
 }

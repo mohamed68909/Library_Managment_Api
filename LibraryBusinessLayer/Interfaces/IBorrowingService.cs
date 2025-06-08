@@ -9,9 +9,9 @@ namespace LibraryBusinessLayer.Interfaces
 {
     public interface IBorrowingService
     {
-        void Borrow(BorrowRequestDto dto);
-        void Return(int borrowingRecordId);
-        List<BorrowingRecordDto> GetByUser(int userId);
+        Task BorrowAsync(BorrowRequestDto dto);
+        Task ReturnAsync(int borrowingRecordId);
+       Task< List<BorrowingRecordDto>> GetByUserAsync(int userId);
     }
 
 }

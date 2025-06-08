@@ -1,5 +1,6 @@
 ﻿using LiibraryDataAccessLayer.Interfaces;
 using LiibraryDataAccessLayer.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,21 +14,29 @@ namespace LiibraryDataAccessLayer.Repositories
         private readonly LibraryContext _context;
         public BookRepository(LibraryContext context) => _context = context;
 
-        public List<Book> GetAll() => _context.Books.ToList();
+        public async Task<List<Book>> GetAllAsync() =>
+     await _context.Books.ToListAsync();
 
-        public Book? GetById(int id) => _context.Books.Find(id);
+        public async Task<Book?> GetByIdAsync(int id) =>
+            await _context.Books.FindAsync(id);
 
-        public void Add(Book book) => _context.Books.Add(book);
+        public async Task AddAsync(Book book) =>
+            await _context.Books.AddAsync(book);
 
-        public void Update(Book book) => _context.Books.Update(book);
-
-        public void Delete(int id)
+        public Task UpdateAsync(Book book)
         {
-            var book = GetById(id);
+            _context.Books.Update(book);
+            return Task.CompletedTask;
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var book = await _context.Books.FindAsync(id);
             if (book != null) _context.Books.Remove(book);
         }
 
-        public void Save() => _context.SaveChanges();
-    }
+        public async Task SaveAsync() => await _context.SaveChangesAsync();
 
+
+    }
 }

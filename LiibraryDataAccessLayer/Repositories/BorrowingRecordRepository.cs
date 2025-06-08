@@ -14,18 +14,22 @@ namespace LiibraryDataAccessLayer.Repositories
         private readonly LibraryContext _context;
         public BorrowingRecordRepository(LibraryContext context) => _context = context;
 
-        public List<BorrowingRecord> GetByUser(int userId) =>
-            _context.BorrowingRecords
+        public async Task <List<BorrowingRecord>> GetByUserAsync(int userId) =>
+          await  _context.BorrowingRecords
                     .Include(r => r.Copy)
-                    .Where(r => r.UserId == userId).ToList();
+                    .Where(r => r.UserId == userId).ToListAsync();
 
-        public BorrowingRecord? GetById(int id) => _context.BorrowingRecords.Find(id);
+        public async Task <BorrowingRecord?> GetByIdAsync(int id) => await _context.BorrowingRecords.FindAsync(id);
 
-        public void Add(BorrowingRecord record) => _context.BorrowingRecords.Add(record);
+        public async Task AddAsync(BorrowingRecord record) => await _context.BorrowingRecords.AddAsync(record);
 
-        public void Update(BorrowingRecord record) => _context.BorrowingRecords.Update(record);
+        public Task UpdateAsync(BorrowingRecord BorrowingRecord)
+        {
+            _context.BorrowingRecords.Update(BorrowingRecord);
+            return Task.CompletedTask;
+        }
 
-        public void Save() => _context.SaveChanges();
+        public async Task SaveAsync() => await _context.SaveChangesAsync();
     }
 
 }

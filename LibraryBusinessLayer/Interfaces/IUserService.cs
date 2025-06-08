@@ -9,11 +9,11 @@ namespace LibraryBusinessLayer.Interfaces
 {
     public interface IUserService
     {
-        List<UserDto> GetAll();
-        UserDto? GetById(int id);
+      Task< List<UserDto>> GetAllAsync();
+      Task  <UserDto?> GetByIdAsync(int id);
       
-        void Update(UserDto dto);
-        void Delete(int id);
+        Task UpdateAsync(UserDto dto);
+        Task DeleteAsync(int id);
     }
 
 

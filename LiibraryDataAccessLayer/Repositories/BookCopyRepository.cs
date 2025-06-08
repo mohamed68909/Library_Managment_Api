@@ -14,24 +14,28 @@ namespace LiibraryDataAccessLayer.Repositories
         private readonly LibraryContext _context;
         public BookCopyRepository(LibraryContext context) => _context = context;
 
-        public List<BookCopy> GetAll() => _context.BookCopies.Include(c => c.Book).ToList();
+        public async Task< List<BookCopy>> GetAllAsync() => await _context.BookCopies.Include(c => c.Book).ToListAsync();
 
-        public List<BookCopy> GetByBookId(int bookId) =>
-            _context.BookCopies.Where(c => c.BookId == bookId).ToList();
+        public async Task< List<BookCopy>> GetByBookIdAsync(int bookId) =>
+          await  _context.BookCopies.Where(c => c.BookId == bookId).ToListAsync();
 
-        public BookCopy? GetById(int id) => _context.BookCopies.Find(id);
+        public  async Task<BookCopy?> GetByIdAsync(int id) => await _context.BookCopies.FindAsync(id);
 
-        public void Add(BookCopy copy) => _context.BookCopies.Add(copy);
+        public async Task AddAsync(BookCopy copy) => await _context.BookCopies.AddAsync(copy);
 
-        public void Update(BookCopy copy) => _context.BookCopies.Update(copy);
-
-        public void Delete(int id)
+        public Task UpdateAsync(BookCopy BookCopy)
         {
-            var copy = _context.BookCopies.Find(id);
+            _context.BookCopies.Update(BookCopy);
+            return Task.CompletedTask;
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var copy = await _context.BookCopies.FindAsync(id);
             if (copy != null) _context.BookCopies.Remove(copy);
         }
 
-        public void Save() => _context.SaveChanges();
+        public async Task SaveAsync() =>  await _context.SaveChangesAsync();
     }
 
 }

@@ -9,12 +9,12 @@ namespace LiibraryDataAccessLayer.Interfaces
 {
     public interface IBookRepository
     {
-        List<Book> GetAll();
-        Book? GetById(int id);
-        void Add(Book book);
-        void Update(Book book);
-        void Delete(int id);
-        void Save();
+         Task<List<Book>> GetAllAsync();
+      Task < Book?> GetByIdAsync(int id);
+        Task AddAsync(Book book);
+        Task UpdateAsync(Book book);
+        Task DeleteAsync(int id);
+        Task SaveAsync();
     }
 
 }

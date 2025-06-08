@@ -9,10 +9,10 @@ namespace LiibraryDataAccessLayer.Interfaces
 {
     public interface IFineRepository
     {
-        IEnumerable<Fine> GetByUserId(int userId);
-        Fine GetById(int id);
-        void Update(Fine fine);
-        void Save();
+      Task<  IEnumerable<Fine> >GetByUserIdAsync(int userId);
+       Task< Fine> GetByIdAsync(int id);
+        Task UpdateAsync(Fine fine);
+        Task SaveAsync();
     }
 
 }

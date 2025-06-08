@@ -9,7 +9,7 @@ namespace LibraryBusinessLayer.Interfaces
 {
     public interface IAuthService
     {
-        void Register(UserRegisterDto dto);
-        string Login(UserLoginDto dto);
+        Task RegisterAsync(UserRegisterDto dto);
+       Task< string> LoginAsync(UserLoginDto dto);
     }
 }

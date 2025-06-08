@@ -18,18 +18,19 @@ namespace LibraryAPIServer.Controllers
         }
 
         [HttpGet("GetSetting")]
-        public ActionResult<SettingsDto> GetSettings()
+        public async Task<ActionResult<SettingsDto>> GetSettings()
         {
-            return Ok(_service.Get());
+            var Setting = _service.GetAsync();
+            return Ok(Setting);
         }
 
         [HttpPut]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
 
-        public IActionResult UpdateSettings(SettingsDto dto)
+        public  async Task <IActionResult> UpdateSettings(SettingsDto dto)
         {
-            _service.Update(dto);
+           await _service.UpdateAsync(dto);
             return Ok("Settings have been updated");
         }
     }

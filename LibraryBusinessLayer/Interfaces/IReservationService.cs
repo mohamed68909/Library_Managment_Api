@@ -9,8 +9,8 @@ namespace LibraryBusinessLayer.Interfaces
 {
     public interface IReservationService
     {
-        void Create(ReservationCreateDto dto);
-        void Cancel(int id);
-        List<ReservationDto> GetByUserId(int userId);
+        Task CreateAsync(ReservationCreateDto dto);
+        Task CancelAsync(int id);
+      Task < List<ReservationDto> >GetByUserIdAsync(int userId);
     }
 }

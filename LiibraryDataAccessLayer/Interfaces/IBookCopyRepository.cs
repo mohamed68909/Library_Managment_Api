@@ -9,12 +9,12 @@ namespace LiibraryDataAccessLayer.Interfaces
 {
     public interface IBookCopyRepository
     {
-        List<BookCopy> GetAll();
-        List<BookCopy> GetByBookId(int bookId);
-        BookCopy? GetById(int id);
-        void Add(BookCopy copy);
-        void Update(BookCopy copy);
-        void Delete(int id);
-        void Save();
+       Task< List<BookCopy> >GetAllAsync();
+       Task< List<BookCopy>> GetByBookIdAsync(int bookId);
+        Task<BookCopy?> GetByIdAsync(int id);
+        Task AddAsync(BookCopy copy);
+        Task UpdateAsync(BookCopy copy);
+        Task DeleteAsync(int id);
+        Task SaveAsync();
     }
 }

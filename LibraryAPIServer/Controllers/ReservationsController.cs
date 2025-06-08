@@ -19,11 +19,11 @@ namespace LibraryAPIServer.Controllers
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult Create(ReservationCreateDto dto)
+        public async Task <IActionResult> Create(ReservationCreateDto dto)
         {
             try
             {
-                _service.Create(dto);
+                await _service.CreateAsync(dto);
                 return Ok("Your reservation has been completed successfully");
             }
             catch (Exception ex)
@@ -36,18 +36,19 @@ namespace LibraryAPIServer.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
-        public IActionResult Cancel(int id)
+        public async Task< IActionResult> Cancel(int id)
         {
-            _service.Cancel(id);
+            await _service.CancelAsync(id);
             return Ok("Your reservation has been cancelled");
         }
 
         [HttpGet("user/{userId}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<List<ReservationDto>> GetByUser(int userId)
+        public async Task <ActionResult<List<ReservationDto>>> GetByUser(int userId)
         {
-            return Ok(_service.GetByUserId(userId));
+            var reservations = await _service.GetByUserIdAsync(userId);
+            return Ok(reservations);
         }
     }
 

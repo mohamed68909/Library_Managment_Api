@@ -9,11 +9,11 @@ namespace LibraryBusinessLayer.Interfaces
 {
     public interface IBookService
     {
-        List<BookDto> GetAll();
-        BookDto? GetById(int id);
-        void Create(BookCreateDto dto);
-        void Update(BookUpdateDto dto);
-        void Delete(int id);
+       Task< List<BookDto>> GetAllAsync();
+       Task< BookDto?> GetByIdAsync(int id);
+        Task CreateAsync(BookCreateDto dto);
+        Task UpdateAsync(BookUpdateDto dto);
+        Task DeleteAsync(int id);
     }
 
 }

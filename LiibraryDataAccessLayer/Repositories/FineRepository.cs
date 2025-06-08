@@ -1,5 +1,6 @@
 ﻿using LiibraryDataAccessLayer.Interfaces;
 using LiibraryDataAccessLayer.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,24 +18,25 @@ namespace LiibraryDataAccessLayer.Repositories
             _context = context;
         }
 
-        public IEnumerable<Fine> GetByUserId(int userId)
+        public async Task<IEnumerable<Fine>> GetByUserIdAsync(int userId)
         {
-            return _context.Fines.Where(f => f.UserId == userId).ToList();
+            return  await _context.Fines.Where(f => f.UserId == userId).ToListAsync();
         }
 
-        public Fine GetById(int id)
+        public  async Task<Fine> GetByIdAsync(int id)
         {
-            return _context.Fines.Find(id);
+            return await _context.Fines.FindAsync(id);
         }
 
-        public void Update(Fine fine)
+        public Task UpdateAsync(Fine Fine)
         {
-            _context.Fines.Update(fine);
+            _context.Fines.Update(Fine);
+            return Task.CompletedTask;
         }
 
-        public void Save()
+        public async Task SaveAsync()
         {
-            _context.SaveChanges();
+             await _context.SaveChangesAsync();
         }
     }
 

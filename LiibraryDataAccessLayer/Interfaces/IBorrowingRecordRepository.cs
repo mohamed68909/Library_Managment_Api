@@ -9,11 +9,11 @@ namespace LiibraryDataAccessLayer.Interfaces
 {
     public interface IBorrowingRecordRepository
     {
-        List<BorrowingRecord> GetByUser(int userId);
-        BorrowingRecord? GetById(int id);
-        void Add(BorrowingRecord record);
-        void Update(BorrowingRecord record);
-        void Save();
+         Task<List<BorrowingRecord>> GetByUserAsync(int userId);
+        Task<BorrowingRecord?> GetByIdAsync(int id);
+        Task AddAsync(BorrowingRecord record);
+        Task UpdateAsync(BorrowingRecord record);
+        Task SaveAsync();
     }
 
 }
