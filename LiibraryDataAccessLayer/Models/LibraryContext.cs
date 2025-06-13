@@ -10,13 +10,13 @@ namespace LiibraryDataAccessLayer.Models
         public LibraryContext(DbContextOptions<LibraryContext> options)
             : base(options) { }
 
-        public virtual DbSet<Book> Books { get; set; }
-        public virtual DbSet<BookCopy> BookCopies { get; set; }
-        public virtual DbSet<BorrowingRecord> BorrowingRecords { get; set; }
-        public virtual DbSet<Fine> Fines { get; set; }
-        public virtual DbSet<Reservation> Reservations { get; set; }
-        public virtual DbSet<Setting> Settings { get; set; }
-        public virtual DbSet<User> Users { get; set; }
+        public  DbSet<Book> Books { get; set; }
+        public  DbSet<BookCopy> BookCopies { get; set; }
+        public  DbSet<BorrowingRecord> BorrowingRecords { get; set; }
+        public  DbSet<Fine> Fines { get; set; }
+        public  DbSet<Reservation> Reservations { get; set; }
+        public  DbSet<Setting> Settings { get; set; }
+        public  DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseSqlServer("Server=.;Database=LibraryDB;Trusted_Connection=True;TrustServerCertificate=True;");
